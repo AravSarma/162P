@@ -29,24 +29,7 @@ if __name__ == "__main__":
     read_sort_file("lab2-data.txt")
 
 
-"""
-def read_sort_file(filename):
-    with open(filename,'r') as file:
-        lines = file.readlines()
 
-    people = []
-    for line in lines: 
-        part = line.strip().split(",")
-        if len(part) < 3 : 
-            continue
-        name, age  = part[0].strip(),int(part[1].strip())
-        people.append((age,name)) 
-    people.sort()
-    for age,name in people: 
-        print(f"{age},{name}")
-if __name__ == "__main__":
-    read_sort_file("lab2-data.txt")
-"""
 """
 •	Reads in the lab2-data.txt file
 •	Splits the lines into parts
