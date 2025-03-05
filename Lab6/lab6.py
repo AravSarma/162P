@@ -10,7 +10,6 @@ def parse_file(filename):
             
             shape_type = parts[0]
             symbol = parts[1]
-            
             if shape_type == 'P':
                 shapes.append(Point(symbol))
             elif shape_type == 'S':
@@ -25,14 +24,12 @@ def parse_file(filename):
             elif shape_type == 'R':
                 width = int(parts[2])
                 height = int(parts[3])
-                shapes.append(Rectangle(symbol, width, height))
-    
+                shapes.append(Rectangle(symbol, width, height)) 
     return shapes
 
 def main():
     filename = "lab6-data.txt" 
     shapes = parse_file(filename)
-
     for shape in shapes:
         shape.draw()
         print()  
