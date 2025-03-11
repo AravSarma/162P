@@ -1,0 +1,4 @@
+triangle * 4
+diamond + 5
+rectangle # 4 3
+square @ 3
