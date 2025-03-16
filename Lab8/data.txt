@@ -1,0 +1,7 @@
+Arav|21|Computer Science
+Reanica|21|Psycology
+Antonio|21|Human Physiology
+Amar|20|Marketing
+Ishaan|20|Law
+Lucas|20|Medical 
+
